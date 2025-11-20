@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { ViewState, Transaction, ChatMessage } from './types';
-import { getStoredTransactions, saveTransactions } from './services/storageService';
+import { getStoredTransactions, saveTransactions } from './services/storage';
 import { BottomNav } from './components/BottomNav';
 import { DashboardView } from './views/DashboardView';
 import { TransactionsView } from './views/TransactionsView';
